@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+<html>
+
+<head>
+     <meta charset=utf-8">
+     <title>Formularios</title>
+
+</head>
+
+<body>
+<center><h3>Formularios Avanzados</h3></center>
+
+<form action="#" method="get">
+
+      <p>
+   Cantidad: <input type="number"name="cantidad" min="1" max="10" step="1">
+      </p>
+
+      <p>
+   Fecha:<input type="date" name="fecha">
+      </p>
+
+      <p>
+       
+     Hora:  <input type="time" name="hora">
+
+      </p>
+
+      <p>
+      Fecha y Hora: <input type="datetime-local" name="fechahora">
+      </p>
+
+      <p>
+       Color:<input type="color" name="color">
+      </p>
+
+      <p>
+      E-mail<input type="email" name="correo">
+      </p>
+
+      <p>
+      Calificacion[0-10]:<input type="range" name="calif" min="0" max="10" step="1">
+      </p>
+
+      <p>
+      <input type="file" name="aerchivo" value="image/*">
+      </p>
+
+      <p>
+      Imagen: <input type="image" name="imagen" src="d:/Practicas/imagen4.jpg"">
+
+      </p>
+
+     <p>
+      Acepto las condiciones:<input type="checkbox" name="condiciones"> 
+
+     </p>
+
+     <p>
+     Sexo:Hombre<input type="radio" name="sexo" value="h">
+     </p>
+
+     <p>
+    Mujer <input type="radio" name="sexo" value="m">
+     </p>
+      
+     <p> 
+     Motivos: <br>
+     <textare name="texto" rows="3" cols="30"></textarea>
+     </p>
+
+     <p>
+     <select>
+           <option value="0">Elija un pais</option>
+                   <optgroup label="America">
+                          <option value="1">Peru</option>
+                           <option value="2">Colombia</option>
+                            <option value="3">Chile</option>
+                    </optgroup>
+
+                 <optgroup label="Europa">
+                          <option value="4">España</option>
+                           <option value="5">Francia</option>
+                            <option value="6">Italia</option>
+                    </optgroup>
+  
+     </select>
+
+     </p>    
+
+     <p>
+       <input type="reset" value="Borra">
+     </p>
+
+    <p>
+       <input type="submit" value="Enviar"> 
+    </p>     
+  
+
+</form>
+
+</body>
+
+</html>
